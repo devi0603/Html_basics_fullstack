@@ -1,0 +1,20 @@
+h1{
+    color:aqua;
+    font-size:30px;
+}
+p{
+    color:blue;
+}
+div{
+    background-color:aqua;
+    height:100px;
+    border:2px;
+    border-color:black;
+}
+button{
+    background-color:blueviolet;
+    color:white;
+}
+button:hover{
+    background-color:blue;
+}
