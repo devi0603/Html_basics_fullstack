@@ -1,0 +1,11 @@
+document.title="NEW dom file";
+document.getElementById("Head1").innerHTML="Hello, World!";
+document.getElementById("para1").style.color="red";
+document.body.style.backgroundColor="pink";
+document.getElementById("para1").innerHTML="Welcome to JS";
+document.getElementsByTagName("h1")[1].style.color="blue";
+document.getElementsByClassName("ds")[0].style.color="green";
+document.getElementsByClassName("ds")[1].style.color="green";
+document.getElementsByClassName("ds")[2].style.color="orange";
+document.getElementsByClassName("ds")[3].style.color="red";
+document.getElementsByClassName("ds")[4].style.color="pink";
