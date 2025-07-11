@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="speed.css"/>
+</head>
+<body>
+  <div class="terminal">
+    <h1>Typing Speed Test</h1>
+    <div id="typewriter" class="typewriter"></div>
+    
+    <textarea id="input" rows="5" placeholder="Start typing..." ></textarea>
+    
+    <div class="progress-bar">
+      <div id="progress"></div>
+    </div>
+
+    <div id="stats" class="hidden">
+      <p>Speed: <span id="wpm">0</span> WPM</p>
+      <p>Accuracy: <span id="accuracy">0%</span></p>
+      <p>Errors: <span id="errors">0</span></p>
+      <button onclick="restart()">Try Again</button>
+    </div>
+  </div>
+  <script src="speed.js"></script>
+</body>
+</html>

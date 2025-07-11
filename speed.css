@@ -1,0 +1,61 @@
+body {
+  background-color:wheat;
+  color:goldenrod;
+  font-family: 'Courier New', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: auto;
+}
+
+.terminal {
+  width: 100%;
+  max-width: 700px;
+}
+
+textarea {
+  width: 100%;
+  background:whitesmoke;
+  color: black;
+  font-family: monospace;
+  font-size: 1.1rem;
+  padding: 10px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+textarea.error {
+  border-color: red;
+}
+
+.typewriter {
+  font-size: 1.2rem;
+  border-bottom: 1px solid orange;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+.progress-bar {
+  background:orange;
+  height: 10px;
+  margin-top: 10px;
+}
+
+#progress {
+  height: 100%;
+  background: #0f0;
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+.hidden {
+  display: none;
+}
