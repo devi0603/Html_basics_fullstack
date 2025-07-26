@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.box {
+  position: absolute;
+
+  
+}
+.red {
+  background-color: crimson;
+  width: 75px;
+  height: 175px;
+  top: 0;
+  left: 0;
+}
+.yellow {
+  background-color: yellow;
+  width: 180px;
+  height: 175px;
+  top: 0;
+  left: 80px;
+}
+.green {
+  background-color: green;
+  width: 210px;
+  height: 118px;
+  top: 181px;
+  left: 0;
+}
+.blue {
+  background-color:lightskyblue;
+  width: 150px;
+  height: 300px;
+  top: 0;
+  left: 220px;
+  clip-path: polygon(30% 60%, 0% 60%, 0% 100%, 100% 100%, 100% 0%, 30% 0%);
+}
