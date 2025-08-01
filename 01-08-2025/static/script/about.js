@@ -1,0 +1,1 @@
+console.log("hello,Django! from About Script");
